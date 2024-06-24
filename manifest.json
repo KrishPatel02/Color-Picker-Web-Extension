@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "Color Picker",
+    "version": "1.0",
+    "description": "Color Picker Web Extension.",
+    "permissions": [
+        "activeTab",
+        "clipboardWrite"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "icons": {
+        "16": "Color-Picker-Image/Color-Picker-16PX.png",
+        "24": "Color-Picker-Image/Color-Picker-24PX.png",
+        "32": "Color-Picker-Image/Color-Picker-32PX.png",
+        "64": "Color-Picker-Image/Color-Picker-64PX.png"
+    }
+}
